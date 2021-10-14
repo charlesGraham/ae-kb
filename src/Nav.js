@@ -1,14 +1,16 @@
 import React from 'react';
 import "./Nav.css";
+import NavOption from './NavOption';
 
 function Nav() {
     return (
         <div className="header_nav">
-            <ul>
-                <li>Login</li>
-                <li>Topics</li>
-                <li>Request Article</li>
-            </ul>
+            <div className="header_navOptions">
+                <NavOption option={"Login"} />
+                <NavOption option={"Topics"} />
+                <NavOption option={"Request Article"} />
+            </div>
+            
             <input type="text" placeholder="Search" />
             <button>Go</button>
         </div>

@@ -26,23 +26,23 @@
     align-items: center;
 }
 
-.header_nav > ul {
-    display: flex;
-    list-style-type: none;
-    margin-right: 30px;
+.header_navLink {
+    margin-right: 15px;
 }
 
-.header_nav > ul > li {
-    margin: 0 10px;
-    font-size: 1.17em;
-    font-weight: 700;
-}
-
-.header_nav > ul > li:hover {
+.header_navLink:hover {
     color: #AAD8D3;
     text-decoration: underline;
     cursor: pointer;
 }
+
+.header_navOptions {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
 
 .header_nav > input {
     margin-right: 15px;
@@ -60,6 +60,7 @@
     color: #393E46;
     font-size: 1.17em;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .header_nav > button:hover {

@@ -1,10 +1,10 @@
 import React from 'react';
 import "./Title.css";
 
-function Title() {
+function Title(props) {
     return (
         <div className="header_title">
-            <h1>AgentElite, Inc</h1>
+            <h1>{props.name}</h1>
         </div>
     )
 }
