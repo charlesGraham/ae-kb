@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>let's build the KB!</h1>
 
-      { /* header */ }
+      <Header />
 
       { /* body */ }
 

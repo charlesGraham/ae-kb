@@ -1,0 +1,17 @@
+
+.header_container {
+    border: 1px solid white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_container > ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.header_container > li {
+    
+}
