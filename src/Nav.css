@@ -1,0 +1,11 @@
+@media screen and (max-width: 1060px) {
+    .header_navOptions {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    input, button {
+        display: none;
+    }
+}

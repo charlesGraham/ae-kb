@@ -16,6 +16,12 @@
     margin: auto 0;
 }
 
+@media screen and (max-width: 750px) {
+    .header_contents {
+        justify-content: center;
+    }
+}
+
 .header_title > h1 {
     margin: 10px auto;
 }

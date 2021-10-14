@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className="container">
             <div className="header_contents">
-                <Title name={"AgentElite, Inc"} />
+                <Title name={"AgentElite"} />
 
                 <Nav />
             </div>

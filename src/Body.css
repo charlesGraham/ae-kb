@@ -28,6 +28,12 @@
     text-align: center;
 }
 
+@media screen and (max-width: 620px) {
+    .sidebar_container {
+        display: none;
+    }
+}
+
 .body_sidebar > h3 {
     padding: 0 100px;
 }
