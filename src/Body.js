@@ -1,7 +1,7 @@
 import React from 'react';
 import ArticleTitle from './ArticleTitle';
 import "./Body.css";
-import BodyContent from './BodyContent';
+import ArticleContent from './ArticleContent';
 import SideBar from './SideBar';
 
 function Body() {
@@ -12,7 +12,7 @@ function Body() {
             <div className="body_content">
                 <ArticleTitle title={"Article Title"} />
                 <hr />
-                <BodyContent />
+                <ArticleContent />
             </div>
         </div>
     )

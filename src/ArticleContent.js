@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BodyContent() {
+function ArticleContent() {
     return (
         <div>
             <p>
@@ -13,4 +13,4 @@ function BodyContent() {
     )
 }
 
-export default BodyContent;
+export default ArticleContent;
