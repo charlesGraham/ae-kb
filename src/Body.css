@@ -5,8 +5,6 @@
 }
 
 .sidebar_container {
-    /* display: flex;
-    justify-content: space-around; */
     max-width: 260px;
     background-color: #eee;
     color: #393E46;
@@ -26,6 +24,11 @@
 
 .body_sidebar {
     text-align: center;
+}
+
+.body_sidebar > p {
+    text-align: left;
+    margin-left: 25px !important;
 }
 
 @media screen and (max-width: 620px) {
