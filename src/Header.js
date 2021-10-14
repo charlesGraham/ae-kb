@@ -3,21 +3,22 @@ import "./Header.css";
 
 function Header() {
     return (
-        <div className="header_container">
-            <div className="header_title">
-                <h1>AgentElite</h1>
-                <h3>Knowledgebase</h3>
-            </div>
-           
+        <div className="container">
+            <div className="header_contents">
+                <div className="header_title">
+                    <h1>AgentElite, Inc</h1>
+                </div>
 
-            { /* Nav */ }
-            <ul>
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
-                <li>item 4</li>
-                <li>item 5</li>
-            </ul>
+                <div className="header_nav">
+                    <ul>
+                        <li>Login</li>
+                        <li>Topics</li>
+                        <li>Request Article</li>
+                    </ul>
+                    <input type="text" placeholder="Search" />
+                    <button>Go</button>
+                </div>
+            </div>
         </div>
     )
 }
