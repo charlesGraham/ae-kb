@@ -7,14 +7,19 @@ import SideBar from './SideBar';
 function Body() {
     return (
         <div className="body_container">
+            <div className="sidebar_container">
             <SideBar />            
+            </div>
 
-            <div className="body_content">
-                <ArticleTitle title={"Article Title"} />
-                <hr />
-                <ArticleContent />
+            <div className="content_container">
+                <div className="body_content">
+                    <ArticleTitle title={"Article Title"} />
+                    <hr />
+                    <ArticleContent />
+                </div>
             </div>
         </div>
+        
     )
 }
 
