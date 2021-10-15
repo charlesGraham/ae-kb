@@ -6,7 +6,7 @@ function SideBar() {
         <div>
             <div className="body_sidebar">
                 <h3>Articles</h3>
-                <hr />
+
                 <SidebarOption title={"Home"} />
                 <SidebarOption title={"Mortgage"} />
                 <SidebarOption title={"Retention Training"} />

@@ -1,5 +1,7 @@
 
 .container {
+    background-color: #185ADB;
+    color: #fff;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -38,7 +40,7 @@
 }
 
 .header_navLink:hover {
-    color: #AAD8D3;
+    color: #0A1931;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -61,16 +63,16 @@
 
 .header_nav > button {
     padding: 10px 40px;
-    background-color: #AAD8D3;
+    background-color: #0A1931;
     border: none;
     border-radius: 50px;
-    color: #393E46;
+    color: #fff;
     font-size: 1.17em;
     font-weight: 700;
     cursor: pointer;
 }
 
 .header_nav > button:hover {
-    background-color: #00ADB5;
-    color: white;
+    background-color: #EFEFEF;
+    color: #0A1931;
 }

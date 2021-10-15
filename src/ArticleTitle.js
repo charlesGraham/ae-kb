@@ -1,4 +1,5 @@
 import React from 'react';
+import "./ArticleTitle.css";
 
 function ArticleTitle(props) {
     return (

@@ -1,0 +1,12 @@
+h3 {
+    background-color: #185ADB;
+    color: #fff;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+    border: none;
+}
+
+p {
+    padding: 0 20px;
+}

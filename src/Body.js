@@ -14,7 +14,7 @@ function Body() {
             <div className="content_container">
                 <div className="body_content">
                     <ArticleTitle title={"Article Title"} />
-                    <hr />
+
                     <ArticleContent />
                 </div>
             </div>
