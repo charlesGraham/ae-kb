@@ -40,7 +40,7 @@
 }
 
 .header_navLink:hover {
-    color: #0A1931;
+    color: #EFEFEF;
     text-decoration: underline;
     cursor: pointer;
 }
